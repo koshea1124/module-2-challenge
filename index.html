@@ -11,80 +11,97 @@
 </head>
 
 <body>
-    <header> 
-        <h1>Kevin O'Shea</h1>
-        <nav>
+    <header>
+        <div class="header-div"> 
+            <h1>Kevin O'Shea</h1>
+        </div>
+        <div class="header-div">
+            <nav>
             <a href="#aboutMe">About Me</a> |
-            <a href="#myWork">My Work</a> |
+            <a href="#my-work">My Work</a> |
             <a href="#contact">Contact Information</a>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="KevinO">
-            <div class="section-landing">
+        <section class="KevinO">
+            <div class="about-me">
                 <figure id="aboutMe">
+                    <center>
                     <img src="./assets/IMG_0346.jpg" alt="Picture of Kevin O'Shea" width="160" height="240">
+                    </center>
                     <figcaption>About Me</figcaption>
                 </figure>
             </div>
-            <div class="section-info">
+            <div class="about-me">
                 <ul>
                     <li>Bachelor of Science, Chemistry, Loyola Marymount University</li>
-                    <li>Master of Arts, Secondary Education, Loyola Marymount University Loyola Marymount University</li>
+                    <li>Master of Arts, Secondary Education, Loyola Marymount University </li>
                     <li>Currently teaching at Bishop Alemany High School</li>
                     <li>Single Subject Credential in Chemistry and Physics</li>
-                    <li>Currently teaching Honors Chemistry, Robotic, Introduction to Engineering Desing, and Computer Integrated Manufacturing</li>
+                    <li>2022-2023 Schedule: Honors Chemistry, Robotic, Introduction to Engineering Desing, and Computer Integrated Manufacturing</li>
                     <li>Lead Mentor of Alemany's FIRST Robotics Team 2659</li>
                 </ul>
             </div>
         </section>
 
-        <section id="Work">
-            <div class="section-landing">
-                <figure id="myWork">
-                    <img src= "./assets/nasa-Q1p7bh3SHj8-unsplash.jpg"alt="Image of the Earth glowing" width="160" height="240">
-                    <figcaption>My Work</figcaption>
-                </figure>
-            </div>
-            <div id="section-info">    
-                <figure>
-                    <img src= "./assets/Climbers.PNG"alt="Image of climbing mechanism" width="160" height="240">
-                    <figcaption>Computer Aided Design (CAD)</figcaption>
-                </figure>
-                <figure>
-                    <img src= "./assets/CAM.PNG"alt="Image of tool paths" width="240" height="160">
-                    <figcaption>Computer Aided Manufacturing (CAM)</figcaption>
-                </figure>
-                <figure>
-                    <img src= "assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"alt="Coding Image" width="240" height="160">
-                    <figcaption>Web Development (Coming Soon)</figcaption>
-                </figure>
+        <section class="portfolio-work">
+            <h2 id="my-work"> My Work</h2>
+            <div class="coding">
+                    <h3>Web Development (HTML and CSS)</h3>
+                    <center>
+                    <img src= "assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Image of code screen">
+                    </center>
+                    <center>
+                    <a class="work-links" href="https://github.com/koshea1124">Git Hub Coming Soon!</a>
+                    </center>
             </div>
         </section>
 
-        <section id="contactInfo">
-            <div class="section-landing">
-                <h2 id="contact">Contact Me</h2>
+        <section class="design-work">
+            <div class="section-info">    
+                    <h3>Computer-Aided Design (CAD)</h3>
+                    <center>
+                    <img src= "./assets/Climbers.PNG"alt="Image of climbing mechanism" width="309.25" height="300">
+                    </center>
+                    <center>
+                    <a class="work-links" href="https://cad.onshape.com/documents?nodeId=12&resourceType=filter">Click to see my designs on Onshape</a>
+                    </center>
+        
             </div>
-            <div id="section-info">
-                <p>Phone</p>
-                    <ul>
-                        <li>(818) 614-7093</li>
-                    </ul>
-                <P>GitHib</P>
-                    <ul>
-                        <li><a href="https://github.com/koshea1124">My Repositories</a></li>
-                    </ul>
-                <P>onshape</P>
-                <ul>
-                    <li><a href="https://cad.onshape.com/documents?nodeId=12&resourceType=filter">My Designs</a></li>
-                </ul>
+            <div class="section-info">
+                    <h3>Computer-Aided Manufacturing (CAM)</h3>
+                    <center>
+                    <img src= "assets/CAM.PNG"alt="Image of tool paths" height="300">
+                    </center>
+                    <center>
+                    <a class="work-links" href="https://cad.onshape.com/documents?nodeId=12&resourceType=filter">Manufacturing</a>
+                    </center>
             </div>
         </section>
     </main>
 
+    <footer>
+        <div id="contact">
+                <h2>Contact Me</h2>
+        </div>
 
+        <section class = links>
+            <div class = media>
+                <p>Phone: (818) 614-7093</p>
+            </div>
+            <div class = media>
+                <p>Email: koshea1980@gmail.com</p>
+            </div>
+            <div class = media>
+                <p>Git Hub: <a class = onshape-github href="https://github.com/koshea1124">My Repositories</a></p>
+            </div>
+            <div class = media>
+                <p>Onshape: <a class = onshape-github href="https://cad.onshape.com/documents?nodeId=12&resourceType=filter">My Designs</a></p>
+            </div>
+        </section>
+    </footer>
     
 </body>
 </html>
