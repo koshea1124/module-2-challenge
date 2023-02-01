@@ -182,7 +182,9 @@ footer{
     text-align: center;
 }
 
-
+.white-link {
+    color: white;
+}
 
 
 @media screen and (min-width:1005px) {
